@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    tools:context=".ChildFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="647dp"
+        android:layout_gravity="center"
+        android:src="@drawable/chatlalala" />
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:layout_gravity="top" />
+    <Button
+        android:id="@+id/btnGoHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/btnopen"
+        android:text="home"
+        />
+
+</FrameLayout>
